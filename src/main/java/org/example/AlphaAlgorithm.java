@@ -213,9 +213,6 @@ public class AlphaAlgorithm {
         List<List<Set<String>>> yL = getY_L(traceList);
         Set<String> tI = getT_I(traceList);
         Set<String> tO = getT_O(traceList);
-
-        // todo
-        
     }
 
     public static boolean checkHasDirectRelation(List<Set<String>> tuple, List<List<Set<String>>> templateTuple) {
